@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+<title>Collatz</title>
+<meta charset="UTF-8">
+<script type="text/javascript" src="js.js">
+</script>
+</head>
+<body bgcolor="lightgrey"><div align="center"><h1>Collatz</h1></div>
+<p>Beginne mit irgendeiner natürlichen Zahl n>0.</p>
+<p>Ist n gerade, so nimm als nächstes n/2.</p>
+<p>Ist  n ungerade, so nimm als nächstes  3n+1.</p>
+<p>Wiederhole die Vorgehensweise mit der erhaltenen Zahl, so mündet jede Folge mit dem Zyklus 4, 2, 1.</p>
+<p>Bitte geben Sie n an:</p>
+<input type="tel" id="i">
+<p></p>
+<input type="submit" onclick="calc()" value="Berechnen">
+<div id="show"></div>
+</html>
